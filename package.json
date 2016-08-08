@@ -4,8 +4,11 @@
   "description": "A crawler that will gather SENSEX data",
   "main": "run.js",
   "scripts": {
-    "start": "node crawlll",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node crawlll"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/skyshader/echo-sensex-crawler"
   },
   "author": "Shardendu Kumar Gautam",
   "license": "ISC",
