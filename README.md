@@ -1,11 +1,22 @@
 #SENSEX DATA CRAWLER
 
-A web crawler that fetches SENSEX data from [http://www.bseindia.com/markets/Equity/EuqityDB.aspx](BSE India) and stores it in CSV format.
+A web crawler that fetches SENSEX data from [BSE India](http://www.bseindia.com/markets/Equity/EuqityDB.aspx) and stores it in CSV format.
 
-The tech stack used is NodeJS along with few libraries.
+####How to use:
+- Clone the repository
+  ```git clone https://github.com/skyshader/echo-sensex-crawler.git```
+
+- Switch to the cloned directory and run `npm install`
+
+- Run `node crawlll` in the terminal to run the crawler
+
+- The result `csv` file will get generated in the `output` directory
+
+
+####The tech stack used is NodeJS along with few libraries.
 
 The libraries used are:
-- [https://github.com/petkaantonov/bluebird](bluebird)
-- [https://github.com/request/request](request)
-- [https://github.com/cheeriojs/cheerio](cheerio)
-- [https://github.com/zemirco/json2csv](json2csv)
+- [bluebird](https://github.com/petkaantonov/bluebird)
+- [request](https://github.com/request/request)
+- [cheerio](https://github.com/cheeriojs/cheerio)
+- [json2csv](https://github.com/zemirco/json2csv)
